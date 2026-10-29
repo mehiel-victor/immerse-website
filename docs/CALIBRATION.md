@@ -37,3 +37,5 @@ The first B runner attempt selected a hidden next-item link as well as a collect
 ## Conclusion and limits
 
 The public skill retains the required mechanisms and has concrete original guidance again. This exploratory comparison **does not establish equal extreme immersion or professional animation quality**. It exposed a structural discovery gap that required explicit direction. More independent generations across domains, seeds/model settings and evaluators are needed to assess consistency; this is one sample per initial variant in one domain. No physical phone, other browser, comprehensive accessibility audit or performance equivalence was verified.
+
+A later [v0.2.0 default and fresh invocation](HERO-CONTINUITY.md) adds spatial hero entry and shared-element ScrollTrigger continuity explicitly; the observations above describe v0.1.1.

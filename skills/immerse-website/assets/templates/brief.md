@@ -36,6 +36,8 @@ Copie e preencha no projeto. Campos sem evidência ficam como “não identifica
 - Compromisso extremo padrão e transformação estrutural da exploração/navegação; exceção explícita ou restrição concreta, se houver:
 - Linguagem escolhida e razão de adequação à marca:
 - Scroll triggers e movimento ambiental constante na jornada normal, inclusive quando o visitante para; interação entre as camadas:
+- Sensação de avançar para dentro da hero: planos, enquadramento, passagem e destino legível:
+- Elemento que atravessa hero → descoberta → aprofundamento: identidade, origem/destino e GSAP ScrollTrigger; exceção concreta, se houver:
 - Protagonista visual e interação/momento de assinatura:
 - Tipografia, hierarquia e comportamento de texto longo:
 - Paleta, contraste, materiais e texturas:

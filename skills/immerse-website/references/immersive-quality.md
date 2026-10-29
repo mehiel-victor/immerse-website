@@ -2,6 +2,8 @@
 
 Leia ao definir direção e ao avaliar a primeira fatia executável e a entrega. Uma experiência imersiva articula um universo visual e seu comportamento ao longo da exploração. A técnica pode ser simples; o resultado perceptível precisa corresponder à ambição do pedido. Adote imersão extrema como padrão da skill e registre qualquer exceção explícita antes de implementar.
 
+O padrão inclui [entrada espacial na hero e continuidade do mesmo protagonista por ScrollTrigger](hero-continuity.md). Verifique esse percurso antes de expandir o protótipo; hero isolada seguida de revelações de cards não cumpre a continuidade padrão.
+
 ## Compromisso de imersão extrema
 
 A invocação da skill já adota o nível extremo e exige que o conceito organize a própria experiência: o visitante explora, escolhe e muda de contexto dentro de um sistema visual que se transforma. A transformação deve ser dominante no enquadramento e na relação entre conteúdos, perceptível durante a jornada normal. Reserve momentos estáveis para compreender informações e concluir ações.

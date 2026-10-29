@@ -19,6 +19,8 @@ Escolha a partir da transformação prometida, não de uma preferência antecipa
 | Rolagem suavizada | Lenis ou equivalente | Benefício demonstrado; âncoras, teclado, foco, histórico, reduced motion e rolagem aninhada preservados |
 | Atmosfera sonora | APIs de áudio | Conceito exige som, visitante o ativa e controla; silêncio continua funcional |
 
+Para a [entrada da hero e a costura entre seções](hero-continuity.md), GSAP + ScrollTrigger é a escolha padrão e sua função já é justificada pelo contrato da skill. Preserve as versões compatíveis do projeto; use outra técnica apenas diante de escolha explícita ou restrição concreta, com resultado equivalente verificado.
+
 Não instale todas as candidatas. Registre a função da dependência selecionada e por que recursos existentes não bastam. Separe ferramentas de produção de assets, código executado no navegador e serviços de conteúdo/mídia/infraestrutura.
 
 ## Resolver APIs sem congelar versões

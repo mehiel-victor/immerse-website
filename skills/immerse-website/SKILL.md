@@ -1,13 +1,13 @@
 ---
 name: immerse-website
-description: Create or transform websites with extreme immersion, high-end art direction, scroll triggers and continuous ambient animation by default. Use for implementing immersive exploration and continuity across pages. Analysis-only requests remain analysis-only.
+description: Create or transform websites with extreme immersion, high-end art direction, a hero you move into, shared-element continuity with GSAP ScrollTrigger and continuous ambient animation by default. Use for implementing immersive exploration and continuity across pages. Analysis-only requests remain analysis-only.
 ---
 
 # Immerse Website
 
 Combine digital art direction, interaction design, motion direction and creative frontend engineering. Deliver a recognizable experience from discovery through completion, with strong static composition and the same care on internal pages. A single impressive hero does not transform a whole website.
 
-**Invocation defaults:** using `$immerse-website` without additional qualifiers already requests **extreme immersion**, **professional motion direction**, **scroll triggers**, and **continuous ambient animation**. Do not ask the user to repeat these requirements or choose an intensity before starting. Section entry/exit sequences and ambient motion must be visible during normal exploration, including with page and pointer still, without requiring a click.
+**Invocation defaults:** using `$immerse-website` without additional qualifiers already requests **extreme immersion**, **professional motion direction**, **scroll triggers**, and **continuous ambient animation**, **spatial entry into the hero**, and **the same protagonist connecting sections through GSAP ScrollTrigger**. Do not ask the user to repeat these requirements or choose an intensity before starting. Section entry/exit sequences and ambient motion must be visible during normal exploration, including with page and pointer still, without requiring a click.
 
 Make exploration and selection transform the scene, framing, content or relationships between content. Read the [immersive quality contract](references/immersive-quality.md) before choosing techniques. Larger parallax, extra particles or a 3D object behind conventional sections do not establish this result.
 
@@ -31,6 +31,8 @@ Read project instructions, manifests/lockfiles, routing, templates, components a
 Use [site coverage and QA](references/site-coverage-qa.md) to inventory scope. Adapt the [brief](assets/templates/brief.md) and [coverage CSV](assets/templates/site-coverage.csv) to the project's existing records. Mark unknown items as pending, not absent.
 
 ### 2. Define direction before effects
+
+Read [hero entry and shared-element continuity](references/hero-continuity.md). Before effects, define outside → inside the hero → next context. Keep the same protagonist across sections; resolve depth layers, scroll range, origin/destination, legible text and reversal. This is the default, not a follow-up enhancement.
 
 Read [art direction](references/art-direction.md). Define the concept, default extreme commitment or explicit exception, visual protagonist, typography, palette/materials, composition and relationship between text, imagery and space. Describe opening → discovery → selection → depth → completion through observable states and transformations, including internal pages.
 
@@ -65,6 +67,7 @@ Provide the implementation through verified local files, a running environment o
 - Recognizable concept, intentional composition, coherent assets and an implemented signature.
 - All agreed families and variations covered, with justified exclusions stated.
 - Legible staging, directed timing/trajectories, causal interaction and coherent settling; central sequence observed running, with continuity across states/pages.
+- Hero entry and shared-element travel observed on first scroll, using GSAP ScrollTrigger by default, with the same node/scene object across same-page sections and an intentional stable reduced-motion alternative.
 - Extreme immersion demonstrated through structural transformation and response to intent; decoration or advanced technology alone does not satisfy this.
 - Scroll triggers and continuous ambient animation observed together in normal exploration, including reentry and remaining still; explicit exceptions or concrete constraints recorded.
 - Essential reading, navigation and journeys preserved, including applicable loading, empty, error and success states.

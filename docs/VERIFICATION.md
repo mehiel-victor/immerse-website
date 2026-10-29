@@ -15,3 +15,5 @@ Private development traces and machine-specific browser scripts are deliberately
 For a new site, record its own runtime, viewports, actions, outcomes and limitations. A static screenshot supports composition; motion claims need execution or temporal evidence.
 
 For the original-example revision and its paired generation experiment, see [calibration findings](CALIBRATION.md). This later experiment reports functional preservation and a creative limitation separately.
+
+The [v0.2.0 hero and continuity verification](HERO-CONTINUITY.md) records the new default and a fresh short-prompt invocation separately from directed demo work.

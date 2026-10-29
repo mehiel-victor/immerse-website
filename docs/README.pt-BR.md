@@ -2,7 +2,7 @@
 
 Uma skill para criar experiências com **imersão extrema, scroll trigger e animação ambiental constante por padrão**.
 
-[English](../README.md) · [Demonstração em vídeo](https://github.com/mehiel-victor/immerse-website/releases/download/v0.1.0/atelie-brisa.mp4)
+[English](../README.md) · [Demonstração em vídeo](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.0/hero-continuity.mp4)
 
 ## Instalar
 
@@ -24,7 +24,7 @@ Abra o projeto no agente e peça:
 Use $immerse-website neste projeto.
 ```
 
-A skill já inclui direção de arte e de animação, disparos por rolagem, movimento constante perceptível com página e ponteiro parados, continuidade nas páginas internas e verificação no navegador. Pausa, movimento reduzido, leitura e alternativas de acesso fazem parte da direção.
+A skill já inclui entrada espacial na hero, continuidade do mesmo elemento entre seções com GSAP ScrollTrigger, direção de arte e de animação, disparos por rolagem, movimento constante perceptível com página e ponteiro parados, continuidade nas páginas internas e verificação no navegador. Pausa, movimento reduzido, leitura e alternativas de acesso fazem parte da direção.
 
 Informe objetivo, assets e restrições quando não estiverem no projeto. Pedidos explícitos podem reduzir a intensidade ou limitar o escopo. Uma solicitação apenas de análise continua sendo análise.
 
@@ -33,3 +33,5 @@ A skill orienta implementação; não é uma biblioteca nem um template fixo. Qu
 ## Experimentar e contribuir
 
 [Execute Ateliê Brisa localmente](../examples/atelie-brisa/README.md), publique resultados nas [Discussions](https://github.com/mehiel-victor/immerse-website/discussions) e consulte [CONTRIBUTING.md](../CONTRIBUTING.md). Se foi útil, deixe uma estrela para ajudar outras pessoas a descobrir o projeto.
+
+O [relatório de entrada na hero e continuidade](HERO-CONTINUITY.md) registra uma nova execução com o prompt curto, testes e limites. A [v0.2.0](https://github.com/mehiel-victor/immerse-website/releases/tag/v0.2.0) inclui o código do museu e as evidências para reprodução.

@@ -1,6 +1,6 @@
 # Especificação de movimento
 
-Padrão da skill: imersão extrema com scroll trigger e animação constante perceptíveis sem clique. Registre abaixo a execução e qualquer exceção explícita ou restrição concreta; não espere um pedido adicional para essas camadas.
+Padrão da skill: entrar na hero em profundidade, conectar seções com o mesmo protagonista usando GSAP ScrollTrigger, manter entradas temporais e animação constante perceptíveis sem clique. Registre abaixo a execução e qualquer exceção explícita ou restrição concreta; não espere um pedido adicional para essas camadas.
 
 Copie e preencha no projeto. Valores devem ser concretos na implementação e ajustados à distância, escala, tarefa e dispositivo. Use “não aplicável” para recursos sem função; não preencha todos só para aumentar a quantidade de efeitos.
 
@@ -31,6 +31,8 @@ Copie e preencha no projeto. Valores devem ser concretos na implementação e aj
 
 Use para a assinatura ou interação de maior incerteza; integre ao registro existente quando pequeno. Não duplique para cada componente reutilizado.
 
+- Hero: estado externo → travessia em profundidade → próximo contexto; planos/câmera/escala relativa e saída do pin, quando aplicável:
+- Protagonista persistente: nó/objeto, origem, destino, faixa ScrollTrigger, pose e reversão; hand-off necessário e identidade preservada:
 - Jornada e intenção do visitante:
 - Protagonista, região de leitura e elementos que permanecem estáveis:
 - Contratos de controle: gesto, transição dirigida, scroll trigger, scrub e/ou loop; propriedades compartilhadas e passagem de controle:

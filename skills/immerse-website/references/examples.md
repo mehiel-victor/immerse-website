@@ -1,6 +1,6 @@
 # Exemplos de decisões
 
-Use para calibrar domínio, técnica e intensidade. São cenários ilustrativos, não relatos de sites implementados nem resultados de testes. Adapte ao inventário real. Nos três domínios, desenvolva o padrão extremo com disparos por rolagem e movimento ambiental contínuo coerentes com o conceito; mantenha os momentos estáveis necessários às tarefas.
+Use para calibrar domínio, técnica e intensidade. São cenários ilustrativos, não relatos de sites implementados nem resultados de testes. Adapte ao inventário real. Nos três domínios, desenvolva a entrada espacial na hero e a continuidade do mesmo protagonista entre seções com GSAP ScrollTrigger, além dos disparos temporais por rolagem e do movimento ambiental contínuo coerentes com o conceito; mantenha os momentos estáveis necessários às tarefas.
 
 ## 1. Portfólio de estúdio — “arquivo vivo”
 
@@ -8,7 +8,7 @@ Use para calibrar domínio, técnica e intensidade. São cenários ilustrativos,
 
 **Direção:** tipografia editorial de grande escala, contraste entre preto e papel, índices pequenos e imagens em enquadramentos assimétricos. O retângulo de um projeto se transforma no enquadramento do estudo de caso; a mesma regra aparece na navegação entre projetos e no fechamento para contato.
 
-**Técnica:** começar com CSS/SVG e transição entre vistas com detecção de suporte; adotar timeline somente se a sequência coordenada exigir. Sem suporte, abrir diretamente a página com composição estável. CMS continua fornecendo conteúdo real.
+**Técnica:** usar SVG/CSS na composição e GSAP ScrollTrigger na entrada da hero e na costura do protagonista; transição entre vistas com detecção de suporte para as rotas. Sem suporte, abrir diretamente a página com composição estável. CMS continua fornecendo conteúdo real.
 
 **Ritmo:** abertura breve e expressiva, índice responsivo à exploração, estudos de caso tranquilos para leitura, CTA claro no fim. Toque usa seleção explícita; movimento reduzido preserva forma e relação sem expansão espacial.
 
@@ -20,7 +20,7 @@ Use para calibrar domínio, técnica e intensidade. São cenários ilustrativos,
 
 **Direção:** uma oficina ilustrada funciona como ambiente de exploração; ferramentas e peças mudam de enquadramento conforme o serviço escolhido, e o personagem responde à ação dentro desse espaço. A passagem ao detalhe desenvolve a mesma cena; o pedido aproxima a composição e estabiliza o movimento para leitura. Um personagem que apenas troca de pose em um layout estático seria insuficiente para a transformação imersiva. Erros recebem ajuda clara, sem humor que culpe a pessoa.
 
-**Técnica:** SVG/CSS pode atender a uma narrativa ilustrada com enquadramentos, recortes e transformações coordenadas; escolha timeline ou outra camada quando esse modelo exigir. Lottie depende de exportação de qualidade e peso compatível. Se o conceito depender de percurso espacial, materiais ou manipulação tridimensional, prove essa solução com assets representativos e considere WebGL; o fato de ser um serviço local não justifica reduzir a ambição. Formulário preserva validação e integração existentes.
+**Técnica:** SVG/CSS pode atender a uma narrativa ilustrada com enquadramentos, recortes e transformações coordenadas; use GSAP ScrollTrigger por padrão na entrada da oficina e no percurso do mesmo objeto entre seções; outra camada exige exceção explícita ou restrição concreta. Lottie depende de exportação de qualidade e peso compatível. Se o conceito depender de percurso espacial, materiais ou manipulação tridimensional, prove essa solução com assets representativos e considere WebGL; o fato de ser um serviço local não justifica reduzir a ambição. Formulário preserva validação e integração existentes.
 
 **Ritmo:** descoberta lúdica, leitura estável de preços/escopo e formulário tranquilo. Toque tem alvos confortáveis e não depende de hover. Reduzido mantém poses estáticas e feedback textual.
 
