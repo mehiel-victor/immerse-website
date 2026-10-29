@@ -13,7 +13,7 @@ Extreme immersion, scroll-triggered choreography, and continuous ambient motion 
 
 </div>
 
-![Real browser capture: scrolling through a botanical installation, with movement continuing when scrolling stops.](docs/media/atelie-brisa.gif)
+![Real browser capture: scrolling through a botanical installation, with movement continuing when scrolling stops.](https://github.com/mehiel-victor/immerse-website/releases/download/v0.1.0/atelie-brisa.gif)
 
 ## One short prompt
 
@@ -60,7 +60,7 @@ The skill chooses techniques to fit the concept: CSS, SVG, Web Animations, GSAP,
 
 **Ateliê Brisa** is an original, fictional botanical demonstration: six pages, a shared 3D garden, morning-to-dusk changes, scroll-directed flowering and a gesture-driven breeze.
 
-- [Watch the full recording](docs/media/atelie-brisa.mp4) — 27.44 seconds, original timing.
+- [Watch the full recording](https://github.com/mehiel-victor/immerse-website/releases/download/v0.1.0/atelie-brisa.mp4) — 27.44 seconds, original timing.
 - [Run the example locally](examples/atelie-brisa/README.md) — static files; no application build required.
 - [Read the verification scope](docs/VERIFICATION.md).
 

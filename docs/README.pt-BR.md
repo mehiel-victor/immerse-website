@@ -2,7 +2,7 @@
 
 Uma skill para criar experiências com **imersão extrema, scroll trigger e animação ambiental constante por padrão**.
 
-[English](../README.md) · [Demonstração em vídeo](media/atelie-brisa.mp4)
+[English](../README.md) · [Demonstração em vídeo](https://github.com/mehiel-victor/immerse-website/releases/download/v0.1.0/atelie-brisa.mp4)
 
 ## Instalar
 
