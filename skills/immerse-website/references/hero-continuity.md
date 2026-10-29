@@ -4,7 +4,11 @@ Leia antes de definir o protótipo central. São padrões de uma invocação sim
 
 ## Entrada em profundidade
 
-Defina três estados antes de programar: **à frente da cena → dentro do universo → próximo contexto**. Na primeira faixa de rolagem, o visitante deve perceber avanço para dentro da hero, não apenas a imagem diminuindo e saindo pela borda. Resolva câmera/perspectiva ou escala relativa, planos em profundidades distintas, oclusão e destino da atenção. Texto, protagonista e ambiente não devem ampliar todos como uma fotografia plana.
+Preserve o percurso **à frente da cena → dentro do universo → próximo contexto**, desenvolvido por **ao menos cinco etapas perceptivelmente distintas de profundidade** antes da entrega ao contexto seguinte. Na primeira faixa de rolagem, o visitante deve perceber avanço para dentro da hero, não apenas a imagem diminuindo e saindo pela borda. Resolva câmera/perspectiva ou escala relativa, planos em profundidades distintas, oclusão e destino da atenção. Texto, protagonista e ambiente não devem ampliar todos como uma fotografia plana.
+
+Planeje as cinco etapas com pose de origem/destino, plano que lidera, movimento de câmera/escala relativa, atenção e estado legível. Um percurso original possível é: **aproximação → limiar → descoberta espacial → travessia → acomodação interna**. Adapte as funções à marca; não replique a mesma cena em cinco tamanhos. Cada etapa precisa mudar enquadramento, relações entre planos ou contexto visual de maneira observável. Cinco marcadores sobre um único zoom não satisfazem o mínimo.
+
+Distribua espaço de scroll suficiente para perceber cada passagem e voltar por ela, sem exigir cinco cliques nem criar espera artificial. Um indicador discreto de percurso pode orientar, mas não comprova profundidade. Movimento reduzido oferece uma composição estável e acesso direto; não obriga atravessar cinco animações.
 
 Exemplo original: num gabinete de instrumentos, anéis próximos passam para fora do enquadramento, a trama distante cresce lentamente e a peça se aproxima do visitante. Ao atravessar esse limiar, a mesma peça se afasta e pousa na coleção; o texto do acervo assenta quando a trajetória libera sua região. Uma tipografia espacial ou ilustração pode usar a mesma gramática sem simular objetos realistas. Não imponha túnel, estrelas ou bússola a outra marca.
 
@@ -30,7 +34,7 @@ No navegador, adote **GSAP + ScrollTrigger** para a entrada da hero e a costura 
 
 Execute a sequência com assets representativos e verifique:
 
-1. Sem clicar, a primeira rolagem produz um avanço perceptível para dentro da cena, com planos que se movem de maneiras distintas.
+1. Sem clicar, a rolagem percorre no mínimo cinco etapas de entrada com mudanças distintas de profundidade, planos e atenção. Observe o centro de cada etapa e a passagem entre elas, incluindo retorno; nomes e contadores isolados não bastam.
 2. O protagonista continua identificado na origem, passagem e destino; inspecione identidade do nó/objeto e pose, além dos pixels. Nenhuma cópia aparece simultaneamente.
 3. A trajetória conecta composições, em vez de apenas revelar um catálogo convencional depois de uma hero isolada. Texto/controles não ficam cobertos em momentos de leitura.
 4. Reversão lenta/rápida e retorno restauram as relações; âncoras, acesso direto, histórico e resize não deixam estados intermediários presos.

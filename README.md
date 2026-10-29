@@ -13,7 +13,7 @@ Extreme immersion, scroll-triggered choreography, and continuous ambient motion 
 
 </div>
 
-![Real browser capture: moving into the hero and carrying the same compass into the collection.](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.0/hero-continuity.gif)
+![Real browser capture: five distinct stages of depth inside the hero.](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.1/five-depth.gif)
 
 ## One short prompt
 
@@ -21,7 +21,7 @@ Extreme immersion, scroll-triggered choreography, and continuous ambient motion 
 Use $immerse-website on this project.
 ```
 
-The default already includes **extreme immersion, professional motion direction, moving into the hero, same-element section transitions with GSAP ScrollTrigger, and continuous ambient animation**. You provide the project and its goal. The agent develops a visual concept, implements it across the authorized scope, and verifies the experience in a browser when tools are available.
+The default already includes **extreme immersion, professional motion direction, moving into the hero through at least five distinct depth beats, same-element section transitions with GSAP ScrollTrigger, and continuous ambient animation**. You provide the project and its goal. The agent develops a visual concept, implements it across the authorized scope, and verifies the experience in a browser when tools are available.
 
 This is an **agent skill**, not an animation library or a website template. It guides decisions and implementation using the project's existing stack.
 
@@ -47,7 +47,7 @@ The package follows the Agent Skills format. Codex metadata is included; other c
 | --- | --- |
 | Art direction | A concept, protagonist, typography, materials and composition that belong to the project. |
 | Immersive exploration | Choices change the scene, framing or relationships between content. Internal pages develop the same idea. |
-| Hero entry | First scroll moves the visitor into a layered scene; the same protagonist connects the hero and following sections. |
+| Hero entry | At least five distinct depth beats move the visitor into a layered scene; the same protagonist connects the hero and following sections. |
 | Scroll triggers | Entering or reentering a section starts a directed sequence, with clear interruption behavior. |
 | Scroll progress | When useful, scroll position controls a reversible transformation. This complements triggers. |
 | Ambient animation | The environment stays alive with the page and pointer still, without requiring a click. |
@@ -61,11 +61,11 @@ GSAP + ScrollTrigger is the default for hero entry and shared-element section tr
 
 **Museu Órbita** demonstrates the current hero-entry and shared-element direction: move into a layered scene, then follow the same compass into the collection and its story.
 
-- [Watch hero entry and continuity](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.0/hero-continuity.mp4) — real browser recording, original timing.
-- [Run the museum and replay the evidence](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.0/hero-continuity-evidence-v0.2.0.zip) — includes the directed demonstration and a separate fresh-invocation output.
+- [Watch hero entry and continuity](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.1/five-depth.mp4) — real browser recording, original timing.
+- [Run the museum and replay the evidence](https://github.com/mehiel-victor/immerse-website/releases/download/v0.2.1/five-depth-evidence-v0.2.1.zip) — includes the directed demonstration and a separate fresh-invocation output.
 - [Read the fresh-invocation results and limits](docs/HERO-CONTINUITY.md).
 
-The top GIF is an excerpt of the museum recording, scaled to 480 pixels wide at 6 fps, without changing playback speed. The skill's default was also tested in an independent short-prompt generation; the result and limits are documented separately from the directed showcase.
+The top GIF is an excerpt of the museum recording, scaled to 480 pixels wide at 6 fps, without changing playback speed. The hero-entry/shared-element pattern was independently tested in v0.2.0. The five-beat extension is verified on this directed showcase; results and limits are documented separately.
 
 ### Earlier botanical example
 

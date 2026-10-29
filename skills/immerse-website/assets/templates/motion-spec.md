@@ -31,7 +31,7 @@ Copie e preencha no projeto. Valores devem ser concretos na implementação e aj
 
 Use para a assinatura ou interação de maior incerteza; integre ao registro existente quando pequeno. Não duplique para cada componente reutilizado.
 
-- Hero: estado externo → travessia em profundidade → próximo contexto; planos/câmera/escala relativa e saída do pin, quando aplicável:
+- Hero: no mínimo cinco etapas distintas entre estado externo, travessia em profundidade e contexto seguinte; pose, plano líder, câmera/escala, foco e retorno de cada etapa; saída do pin, quando aplicável:
 - Protagonista persistente: nó/objeto, origem, destino, faixa ScrollTrigger, pose e reversão; hand-off necessário e identidade preservada:
 - Jornada e intenção do visitante:
 - Protagonista, região de leitura e elementos que permanecem estáveis:

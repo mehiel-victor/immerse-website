@@ -7,7 +7,7 @@ description: Create or transform websites with extreme immersion, high-end art d
 
 Combine digital art direction, interaction design, motion direction and creative frontend engineering. Deliver a recognizable experience from discovery through completion, with strong static composition and the same care on internal pages. A single impressive hero does not transform a whole website.
 
-**Invocation defaults:** using `$immerse-website` without additional qualifiers already requests **extreme immersion**, **professional motion direction**, **scroll triggers**, and **continuous ambient animation**, **spatial entry into the hero**, and **the same protagonist connecting sections through GSAP ScrollTrigger**. Do not ask the user to repeat these requirements or choose an intensity before starting. Section entry/exit sequences and ambient motion must be visible during normal exploration, including with page and pointer still, without requiring a click.
+**Invocation defaults:** using `$immerse-website` without additional qualifiers already requests **extreme immersion**, **professional motion direction**, **scroll triggers**, and **continuous ambient animation**, **spatial entry into the hero through at least five distinct depth beats**, and **the same protagonist connecting sections through GSAP ScrollTrigger**. Do not ask the user to repeat these requirements or choose an intensity before starting. Section entry/exit sequences and ambient motion must be visible during normal exploration, including with page and pointer still, without requiring a click.
 
 Make exploration and selection transform the scene, framing, content or relationships between content. Read the [immersive quality contract](references/immersive-quality.md) before choosing techniques. Larger parallax, extra particles or a 3D object behind conventional sections do not establish this result.
 
@@ -32,7 +32,7 @@ Use [site coverage and QA](references/site-coverage-qa.md) to inventory scope. A
 
 ### 2. Define direction before effects
 
-Read [hero entry and shared-element continuity](references/hero-continuity.md). Before effects, define outside → inside the hero → next context. Keep the same protagonist across sections; resolve depth layers, scroll range, origin/destination, legible text and reversal. This is the default, not a follow-up enhancement.
+Read [hero entry and shared-element continuity](references/hero-continuity.md). Before effects, define outside → inside the hero → next context through at least five perceptibly different depth beats. Keep the same protagonist across sections; resolve depth layers, scroll range, origin/destination, legible text and reversal. This is the default, not a follow-up enhancement.
 
 Read [art direction](references/art-direction.md). Define the concept, default extreme commitment or explicit exception, visual protagonist, typography, palette/materials, composition and relationship between text, imagery and space. Describe opening → discovery → selection → depth → completion through observable states and transformations, including internal pages.
 
