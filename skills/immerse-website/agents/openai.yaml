@@ -1,0 +1,4 @@
+interface:
+  display_name: "Immerse Website"
+  short_description: "Extreme immersion, scroll triggers and ambient motion"
+  default_prompt: "Use $immerse-website on this project with its default extreme immersion, professional motion direction, scroll triggers and continuous ambient animation; implement and verify the authorized scope."

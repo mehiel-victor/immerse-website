@@ -1,0 +1,41 @@
+/* Gesture controls keep navigation separate from direct manipulation. */
+.gesture-toolbar{position:absolute;inset:94px var(--gutter) auto;display:flex;justify-content:space-between;gap:18px;align-items:center;z-index:2}
+.gesture-modes{display:flex;gap:4px;padding:4px;background:#0e1d16d9;border:1px solid var(--line);border-radius:28px;backdrop-filter:blur(12px)}
+.gesture-modes button{min-height:44px;padding:0 22px;font-size:11px;border-radius:22px;transition:background 180ms,color 180ms}
+.gesture-modes button[aria-pressed=true]{background:var(--accent);color:#172a1d}
+.explore-pause{min-height:44px;padding:0 12px;font-size:11px}
+.orbit-surface{inset:158px 0 128px;user-select:none}
+.explore-dialog[data-gesture-mode=wind] .orbit-surface{cursor:crosshair}
+.explore-dialog[data-gesture-mode=wind] .orbit-surface.dragging{cursor:grabbing}
+.orbit-surface.gesture-quiet{cursor:default!important}
+.orbit-hint{top:12px;max-width:300px;text-shadow:0 2px 12px #07150c}
+.gesture-caption{position:absolute;left:var(--gutter);top:95px;font:clamp(30px,4.8vw,72px)/.96 var(--serif);letter-spacing:-.04em;color:#edf0d9c4;pointer-events:none;transition:opacity 400ms var(--ease),transform 500ms var(--ease)}
+.gesture-caption em{font-weight:400}
+.gesture-used .gesture-caption,.explore-dialog[data-gesture-mode=orbit] .gesture-caption{opacity:0;transform:translateY(-10px)}
+.wind-controls{display:flex;gap:10px;align-items:center}
+.wind-controls button{min-height:48px;padding:0 16px;font-size:12px}
+.wind-pulse{border:1px solid var(--line);background:#11281ed9;border-radius:25px}
+.wind-pulse span{font-size:22px;margin-left:10px}
+.detail-copy>.explore-toggle{margin-top:24px;font-size:12px}
+.detail-copy>.explore-toggle .explore-icon{width:44px;height:44px}
+@media(min-width:701px){
+ .page-home[data-active-scene="1"] .world-tools,
+ .page-home[data-active-scene="3"] .world-tools{left:var(--gutter);right:auto}
+}
+@media(max-width:700px){
+ .detail .world-hotspots{display:none}
+ .gesture-toolbar{top:84px;left:20px;right:20px;gap:8px}
+ .gesture-modes button{font-size:10px;padding-inline:13px}
+ .explore-pause{font-size:10px;padding-inline:5px}
+ .orbit-surface{inset:145px 0 198px}
+ .orbit-hint{left:24px;right:24px;font-size:10px;max-width:250px}
+ .gesture-caption{top:58px;left:24px;font-size:38px}
+ .wind-controls{justify-content:center;width:100%}
+ .explore-bottom{bottom:14px;gap:8px}
+ .explore-worlds button{min-height:48px}
+ .explore-service{min-height:48px}
+}
+@media(max-height:620px) and (min-width:701px){
+ .gesture-toolbar{top:75px}.orbit-surface{inset:135px 0 115px}.gesture-caption{top:58px;font-size:36px}.explore-bottom{bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){.gesture-caption{display:none}}

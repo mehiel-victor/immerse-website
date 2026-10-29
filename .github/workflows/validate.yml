@@ -1,0 +1,22 @@
+name: Validate
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'PyYAML>=6,<7'
+      - run: python scripts/validate.py
+      - run: node examples/atelie-brisa/wind-field.test.mjs
+      - name: Generated pages match the source
+        working-directory: examples/atelie-brisa
+        run: |
+          node build.mjs
+          git diff --exit-code -- '*.html'

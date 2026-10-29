@@ -1,0 +1,23 @@
+name: Bug report
+description: A reproducible problem in the skill or runnable example.
+title: "[BUG] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include expected and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: Include the prompt, agent, stack, browser and steps. Remove private information.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A recording is especially useful for motion. Include reduced-motion behavior when relevant.
