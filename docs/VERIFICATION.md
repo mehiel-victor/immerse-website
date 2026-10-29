@@ -13,3 +13,5 @@ No physical phone, Safari/Firefox, comprehensive screen-reader audit or real bfc
 Private development traces and machine-specific browser scripts are deliberately omitted. The repository includes reproducible structural checks and the pure wind-field test. CI verifies package structure, local documentation links, JavaScript syntax, deterministic page generation and the wind-field invariants. It does not certify visual quality or run the full historical browser suite.
 
 For a new site, record its own runtime, viewports, actions, outcomes and limitations. A static screenshot supports composition; motion claims need execution or temporal evidence.
+
+For the original-example revision and its paired generation experiment, see [calibration findings](CALIBRATION.md). This later experiment reports functional preservation and a creative limitation separately.

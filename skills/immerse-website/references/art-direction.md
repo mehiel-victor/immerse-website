@@ -12,11 +12,26 @@ Use ao definir conceito, selecionar referências e produzir assets. O resultado 
 
 Uma direção concreta descreve: “títulos serifados de grande escala, margens assimétricas, papel quente e recortes que se abrem como páginas; o recorte do projeto persiste ao entrar no estudo de caso”. Não encerre em “premium, moderno e imersivo”.
 
-## Princípios para investigação
+## Princípios e ensaios originais
 
-Investigue continuidade espacial, ritmo editorial, resposta ao gesto, materialidade, atmosfera, personalidade e hierarquia tipográfica conforme a necessidade da marca. Traduza os princípios em uma composição original e verifique o resultado em execução.
+Os cenários abaixo são propostas fictícias desta skill, não descrições de sites existentes. Use-os para formular decisões e sinais de falha; não replique o mesmo cenário em marcas diferentes nem trate a tabela como checklist obrigatório de efeitos.
 
-Não publique no repositório nomes, URLs ou listas de sites de inspiração fornecidos em contexto privado, salvo solicitação explícita do usuário para publicá-los. Mantenha a documentação pública centrada nos princípios e na implementação original.
+| Princípio | Ensaio original e transformação | Pergunta para o projeto | Falha observável |
+| --- | --- | --- | --- |
+| Continuidade espacial | Num arquivo de cerâmica, a peça escolhida sai do conjunto e ocupa o detalhe; ao voltar, reassume sua posição e a seleção permanece | Que elemento mantém identidade, posição ou relação ao mudar de contexto? | Corte para outra tela sem vínculo com a peça; retorno perde a seleção |
+| Ritmo editorial | Numa exposição de astronomia, a abertura ampla se fecha num enquadramento de observação, assenta o título e deixa um intervalo estável para leitura | Onde alternar impacto, silêncio e informação? O que deve liderar a atenção em cada fase? | Câmera, título e controles se movem simultaneamente com igual destaque |
+| Agência e causalidade | Num atlas de correntes, arrastar um ponto de medição deforma linhas próximas, propaga a influência e acomoda o campo ao soltar | Como posição, direção e velocidade do gesto mudam localmente o ambiente? | O mesmo loop toca em qualquer ponto; resposta distante do contato |
+| Materialidade e atmosfera | Num acervo de tecidos, aproximar uma amostra revela trama e altera luz e sombra sem transformar o texto em textura | Que material, escala e luz pertencem à marca? Como a composição funciona parada? | Brilho genérico, detalhe sem resolução ou informação ilegível |
+| Personalidade e jogo | Num mapa de oficinas, um guia ilustrado aponta o percurso escolhido, reage à mudança e repousa enquanto se preenche a inscrição | Como a personalidade acompanha a tarefa e reconhece a intenção sem interrompê-la? | Personagem compete com a ação principal ou repete a mesma entrada em toda rota |
+| Escala tipográfica | Num festival de poesia, um verso monumental se recompõe em índice; a palavra escolhida ancora a leitura do poema | Que contraste de escala e sobreposição organiza o conteúdo? Em que momento o texto fica estável? | Letras cortadas escondem navegação; títulos apenas aumentam sem mudar hierarquia |
+| Transformação com significado | Num museu de minerais, fragmentos se agrupam na amostra selecionada e revelam as relações de sua formação | O que a transformação ensina sobre o conteúdo ou a marca? | Partículas sem relação com seleção, descoberta ou aprofundamento |
+| Identidade demonstrada | Num portfólio de restauração, mover uma divisória revela etapas de uma peça e conduz ao estudo do processo, mantendo o mesmo enquadramento | Como a própria interação demonstra uma capacidade real? O detalhe desenvolve a ideia? | Efeito vistoso não explica o trabalho; páginas internas voltam a um template genérico |
+
+Para adaptar um ensaio, escreva **estado inicial → intenção → mudança dominante → destino legível → retorno**. Defina o protagonista, as camadas que respondem e as que ficam estáveis. Escolha poses-chave e timing pela distância, massa sugerida e função; valide em execução, sem impor uma duração universal.
+
+Componha os três controles sem confundi-los: **entrada por scroll** dispara uma sequência temporal; **progresso de scroll** transforma enquadramento ou relações; **loop ambiental** mantém presença com página parada. Exemplo original: ao entrar numa sala do museu, o rótulo assenta; a rolagem aproxima a amostra e reorganiza seu contexto; uma variação lenta de luz continua enquanto a pessoa lê. Pausa e movimento reduzido preservam seleção, conteúdo e composição final. Determine também o que acontece ao sair, reentrar, inverter, interromper e voltar por âncora.
+
+Não publique no repositório nomes, URLs ou listas de sites de inspiração fornecidos em contexto privado. Mantenha a documentação pública centrada nos princípios e na implementação original.
 
 ## Protocolo de leitura
 
